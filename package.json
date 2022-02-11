@@ -1,5 +1,5 @@
 {
-  "name": "weather-cli",
+  "name": "weather-open-cli",
   "version": "1.0.0",
   "private": false,
   "description": "CLI for getting weather",
@@ -12,6 +12,7 @@
     "node": ">14"
   },
   "scripts": {
+    "start": "node weather.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -27,7 +28,7 @@
   },
   "bugs": {
     "url": "https://",
-    "email": "email@gmail.com"
+    "email": "adiletk312@gmail.com"
   },
   "dependencies": {
     "axios": "^0.25.0",
